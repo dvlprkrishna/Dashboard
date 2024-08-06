@@ -9,6 +9,8 @@ export const fakeStocks = [
     dividendYield: 1.2,
     popularProducts: ["TCS iON", "TCS BaNCS"],
     investors: ["BlackRock", "SBI Mutual Fund"],
+    editable: false,
+    tooltip: "Leading IT services company",
   },
   {
     symbol: "INFY",
@@ -20,6 +22,8 @@ export const fakeStocks = [
     dividendYield: 1.4,
     popularProducts: ["Infosys Finacle", "Infosys Nia"],
     investors: ["Vanguard", "HDFC Mutual Fund"],
+    editable: false,
+    tooltip: "Global leader in consulting and technology",
   },
   {
     symbol: "RELIANCE",
@@ -31,6 +35,8 @@ export const fakeStocks = [
     dividendYield: 0.8,
     popularProducts: ["Jio", "Reliance Petroleum"],
     investors: ["LIC", "ICICI Prudential"],
+    editable: true,
+    tooltip: "Diverse conglomerate with major energy interests",
   },
   {
     symbol: "HDFCBANK",
@@ -42,6 +48,8 @@ export const fakeStocks = [
     dividendYield: 1.1,
     popularProducts: ["HDFC Personal Loan", "HDFC Credit Card"],
     investors: ["HSBC", "Franklin Templeton"],
+    editable: true,
+    tooltip: "One of India's largest private sector banks",
   },
   {
     symbol: "ICICIBANK",
@@ -53,6 +61,8 @@ export const fakeStocks = [
     dividendYield: 1.3,
     popularProducts: ["ICICI Home Loan", "ICICI Insurance"],
     investors: ["Morgan Stanley", "Tata Mutual Fund"],
+    editable: true,
+    tooltip: "Major player in banking and financial services",
   },
   {
     symbol: "HINDUNILVR",
@@ -64,6 +74,7 @@ export const fakeStocks = [
     dividendYield: 1.5,
     popularProducts: ["Dove", "Lux"],
     investors: ["Aditya Birla Sun Life", "Aberdeen"],
+    editable: true,
   },
   {
     symbol: "MARUTI",
@@ -75,6 +86,8 @@ export const fakeStocks = [
     dividendYield: 0.9,
     popularProducts: ["Alto", "Swift"],
     investors: ["Goldman Sachs", "Mirae Asset"],
+    editable: true,
+    tooltip: "Leading automobile manufacturer in India",
   },
   {
     symbol: "LTI",
@@ -86,6 +99,8 @@ export const fakeStocks = [
     dividendYield: 1.0,
     popularProducts: ["LTI Canvas", "LTI Matrix"],
     investors: ["T Rowe Price", "Sundaram Mutual Fund"],
+    editable: true,
+    tooltip: "Specializes in IT services and solutions",
   },
   {
     symbol: "DRREDDY",
@@ -97,6 +112,8 @@ export const fakeStocks = [
     dividendYield: 1.2,
     popularProducts: ["Dolo", "Ciplox"],
     investors: ["JPMorgan Chase", "HDFC Life"],
+    editable: false,
+    tooltip: "Major pharmaceutical company in India",
   },
   {
     symbol: "BHARTIARTL",
@@ -108,6 +125,7 @@ export const fakeStocks = [
     dividendYield: 1.1,
     popularProducts: ["Airtel Prepaid", "Airtel Postpaid"],
     investors: ["UBS", "Kotak Mutual Fund"],
+    editable: true,
   },
   {
     symbol: "ADANIGREEN",
@@ -119,6 +137,8 @@ export const fakeStocks = [
     dividendYield: 0.5,
     popularProducts: ["Solar Projects", "Wind Energy Solutions"],
     investors: ["Nomura", "ICICI Lombard"],
+    editable: true,
+    tooltip: "Focused on renewable energy solutions",
   },
   {
     symbol: "HCLTECH",
@@ -130,6 +150,8 @@ export const fakeStocks = [
     dividendYield: 1.4,
     popularProducts: ["HCL Digital Transformation", "HCL Cloud Solutions"],
     investors: ["State Street", "L&T Mutual Fund"],
+    editable: true,
+    tooltip: "Provider of IT services and solutions",
   },
   {
     symbol: "UPL",
@@ -141,6 +163,7 @@ export const fakeStocks = [
     dividendYield: 1.0,
     popularProducts: ["Herbicides", "Insecticides"],
     investors: ["HSBC Global Asset Management", "Edelweiss"],
+    editable: false,
   },
   {
     symbol: "KOTAKBANK",
@@ -152,6 +175,7 @@ export const fakeStocks = [
     dividendYield: 1.2,
     popularProducts: ["Kotak Personal Loan", "Kotak Securities"],
     investors: ["Barclays", "Bajaj Allianz"],
+    editable: true,
   },
   {
     symbol: "TATAMOTORS",
@@ -163,6 +187,8 @@ export const fakeStocks = [
     dividendYield: 0.7,
     popularProducts: ["Tata Nano", "Tata Hexa"],
     investors: ["Morgan Stanley", "Principal Mutual Fund"],
+    editable: false,
+    tooltip: "Automobile manufacturer with diverse products",
   },
   {
     symbol: "ITC",
@@ -174,5 +200,6 @@ export const fakeStocks = [
     dividendYield: 2.5,
     popularProducts: ["Aashirvaad", "Sunfeast"],
     investors: ["HDFC", "Axis Mutual Fund"],
+    editable: true,
   },
 ];

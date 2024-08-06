@@ -10,14 +10,9 @@ const Premium = () => {
       <div className="relative z-10 flex-1 overflow-auto p-4">
         <Header title={"Premium"} />
         <div className="flex flex-row flex-wrap gap-4">
+          <div>Click on any cell data to edit values</div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            minus omnis dignissimos, hic architecto labore rerum delectus
-            eligendi iusto! Sunt eos porro tempore fugit ducimus consectetur
-            dicta distinctio ab quae!
-          </div>
-          <div>
-            <Table data={fakeData} />
+            <Table data={fakeData} setData={setFakeData} />
           </div>
         </div>
       </div>

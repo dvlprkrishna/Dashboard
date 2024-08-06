@@ -16,14 +16,6 @@ export const fakeData = [
     link: "/market/index/nse/niftybank",
   },
   {
-    label: "NIFTYFMCG",
-    name: "Nifty FMCG",
-    value: "44750.30",
-    changeValue: "-78.40",
-    changePercent: "-0.17",
-    link: "/market/index/nse/niftyfmcg",
-  },
-  {
     label: "NIFTYMETAL",
     name: "Nifty Metal",
     value: "14520.65",
